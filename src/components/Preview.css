@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center;
+}
+
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  color: #0b032d;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  padding: 15px;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 50%;
+  word-break: break-word;
+}
