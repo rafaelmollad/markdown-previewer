@@ -3,10 +3,9 @@ import "./Editor.css";
 
 const Editor = props => {
   return (
-    <div className="editor-container">
+    <div id="editor-container">
       <form>
         <textarea
-          className="editor"
           onChange={props.handleChange}
           name="editor"
           id="editor"

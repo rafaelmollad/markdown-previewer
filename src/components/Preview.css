@@ -8,7 +8,7 @@ p {
   text-align: center;
 }
 
-.preview-container {
+#preview {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,6 +19,11 @@ p {
   padding: 15px;
   height: 100vh;
   overflow-y: scroll;
-  width: 50%;
   word-break: break-word;
+}
+
+@media (min-width: 950px) {
+  #preview {
+    width: 50%;
+  }
 }

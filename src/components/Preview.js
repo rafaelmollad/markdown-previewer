@@ -15,10 +15,7 @@ class Preview extends Component {
 
   render() {
     return (
-      <div
-        className="preview-container"
-        dangerouslySetInnerHTML={this.getMarkdownText()}
-      />
+      <div id="preview" dangerouslySetInnerHTML={this.getMarkdownText()} />
     );
   }
 }

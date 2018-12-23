@@ -11,6 +11,11 @@ body {
 }
 
 .App {
-  display: flex;
   padding: 20px;
+}
+
+@media (min-width: 950px) {
+  .App {
+    display: flex;
+  }
 }
