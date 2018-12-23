@@ -1,8 +1,9 @@
 import React from "react";
+import "./Editor.css";
 
 const Editor = props => {
   return (
-    <div>
+    <div id="editor-container">
       <form>
         <textarea
           onChange={props.handleChange}

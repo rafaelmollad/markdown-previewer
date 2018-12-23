@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import marked from "marked";
+import "./Preview.css";
 
 class Preview extends Component {
   constructor(props) {
@@ -13,7 +14,9 @@ class Preview extends Component {
   }
 
   render() {
-    return <div dangerouslySetInnerHTML={this.getMarkdownText()} />;
+    return (
+      <div id="preview" dangerouslySetInnerHTML={this.getMarkdownText()} />
+    );
   }
 }
 
